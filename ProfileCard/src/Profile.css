@@ -1,0 +1,54 @@
+.photo{
+    padding: 20px;
+    height: 200px;
+    border: 1px solid white;
+    border-radius: 200%;
+    box-sizing: border-box;
+    display: block; /* Added to center the image */
+    margin: 0 auto; /* Added to center the image */
+}
+.pro-online{
+    background-color: green;
+    border-radius: 20px;
+    padding: 3px;
+}
+.pro-offline{
+    background-color: orange;
+    border-radius: 20px;
+    padding: 3px;
+}
+body {
+    font-family: 'inter', 'sans-serif';
+    background-color: lavender;
+}
+#root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+button{
+    margin-left: 32%;
+    color: white;
+    background-color: rgb(0, 140, 255);
+    border-color: rgb(100, 57, 141);
+    border-radius: 20px;
+}
+.card-container{
+    background-color: rgb(192, 66, 97);
+    padding: 20px;
+    border-radius: 10%;
+    
+}
+.username{
+    font-size: 20px;
+    color: aqua;
+    margin-left: 5%;
+}
+.role{
+    font-size: 20px;
+    color: aqua;
+}
+h3{
+    color: rgb(71, 255, 135);
+}
